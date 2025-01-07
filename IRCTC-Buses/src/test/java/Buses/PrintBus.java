@@ -55,6 +55,7 @@ public class PrintBus {
 		}
 		driver.switchTo().window(parent); 	
 		driver.findElement(By.xpath("//a[.=' LOGIN ']")).click();
+		System.out.println("Shaamaa");
 		
 		//driver.quit();
 		
