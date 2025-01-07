@@ -44,6 +44,7 @@ public class PrintBus {
 		
 		Actions act=new Actions(driver);
 		act.scrollByAmount(x, y).perform();
+		System.out.println("vanakkam");
 		
 		
 		
